@@ -1,0 +1,54 @@
+{
+  "system_info": {
+    "cipher": "AES-256-GCM",
+    "kdf": "PBKDF2-HMAC-SHA256 (100k iterations)",
+    "trials_per_size": 3
+  },
+  "benchmarks": [
+    {
+      "file_label": "250 KB",
+      "original_size_bytes": 247002,
+      "original_size_mb": 0.236,
+      "encrypted_size_bytes": 247327,
+      "storage_overhead_bytes": 325,
+      "storage_overhead_percent": 0.1316,
+      "mean_encryption_time_sec": 0.0247,
+      "mean_decryption_time_sec": 0.0235,
+      "encryption_throughput_mb_s": 9.53,
+      "decryption_throughput_mb_s": 10.01,
+      "std_enc_sec": 0.00208,
+      "std_dec_sec": 0.00031,
+      "lossless_match": true
+    },
+    {
+      "file_label": "1.0 MB",
+      "original_size_bytes": 1023164,
+      "original_size_mb": 0.976,
+      "encrypted_size_bytes": 1023491,
+      "storage_overhead_bytes": 327,
+      "storage_overhead_percent": 0.032,
+      "mean_encryption_time_sec": 0.0266,
+      "mean_decryption_time_sec": 0.0266,
+      "encryption_throughput_mb_s": 36.75,
+      "decryption_throughput_mb_s": 36.64,
+      "std_enc_sec": 0.00021,
+      "std_dec_sec": 0.00015,
+      "lossless_match": true
+    },
+    {
+      "file_label": "5.0 MB",
+      "original_size_bytes": 5115644,
+      "original_size_mb": 4.879,
+      "encrypted_size_bytes": 5115971,
+      "storage_overhead_bytes": 327,
+      "storage_overhead_percent": 0.0064,
+      "mean_encryption_time_sec": 0.0426,
+      "mean_decryption_time_sec": 0.0427,
+      "encryption_throughput_mb_s": 114.62,
+      "decryption_throughput_mb_s": 114.25,
+      "std_enc_sec": 0.00015,
+      "std_dec_sec": 0.00011,
+      "lossless_match": true
+    }
+  ]
+}

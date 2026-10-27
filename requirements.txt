@@ -1,0 +1,26 @@
+# ==============================================================================
+# Secure Audio File Encryption using AES-256-GCM
+# Production & M.Tech Research Dependencies
+# ==============================================================================
+
+# Cryptographic Primitives (AES-256-GCM, PBKDF2-HMAC-SHA256, CSPRNG)
+pycryptodome>=3.20.0
+
+# Audio Processing & Format Handling (WAV, MP3, FLAC)
+pydub>=0.25.1
+audioop-lts>=0.2.1; python_version >= '3.13'
+
+# Scientific Computing & Entropy Analysis
+numpy>=1.26.0
+
+# Performance Benchmarking & Spectrogram Visualizations
+matplotlib>=3.8.0
+
+# Modern Graphical User Interface
+customtkinter>=5.2.0
+
+# Cloud Web Application Deployment (Streamlit Community Cloud / HuggingFace)
+streamlit>=1.32.0
+
+# Automated Security & Unit Testing Suite
+pytest>=8.0.0

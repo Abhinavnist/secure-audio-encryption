@@ -172,3 +172,4 @@ secure-audio-encryption/
 ## 📜 Academic Attribution & License
 Developed for M.Tech Dissertation in Cryptography & Information Security.  
 Licensed under the [MIT License](LICENSE).
+# secure-audio-encryption
